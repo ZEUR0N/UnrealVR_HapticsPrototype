@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"G:/Uni/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/Characters/MannequinsXR/B_MannequinsXR.uasset",
+				"G:/Uni/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/PhysicalS/Maps/Steaming/DebugRoom.umap",
+				"G:/Uni/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/PhysicalS/Maps/Demo.umap",
+				"G:/Uni/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/PhysicalS/Misk/GM_PIS.uasset"
+			]
+		}
+	]
+}
