@@ -4542,3 +4542,281 @@ Script Stack (0 frames) :
 [2023.11.06-11.06.11:163][800]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/VRTemplateMap_Auto410ABF3E04C9F02B5D07A758800C4AB9B.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto4.umap'
 [2023.11.06-11.06.11:176][800]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.178
 [2023.11.06-11.06.11:176][800]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.178
+[2023.11.06-11.13.40:249][523]BlueprintLog: New page: Compile VRTemplateMap
+[2023.11.06-11.13.40:253][523]LogBlueprint: Warning: [AssetLog] D:\TFG\UnrealVR_HapticsPrototype\PhysicalInteractionSystem\Content\VRTemplate\Maps\VRTemplateMap.umap: [Compiler] Could not find a variable named "Debug Message Duration" in 'VRTemplateMap_C'.
+Make sure 'VRTemplateMap_C' has been compiled for  Get Debug Message Duration
+[2023.11.06-11.13.40:253][523]LogBlueprint: Warning: [AssetLog] D:\TFG\UnrealVR_HapticsPrototype\PhysicalInteractionSystem\Content\VRTemplate\Maps\VRTemplateMap.umap: [Compiler] Could not find a variable named "Debug Message Color" in 'VRTemplateMap_C'.
+Make sure 'VRTemplateMap_C' has been compiled for  Get Debug Message Color
+[2023.11.06-11.13.40:253][523]LogBlueprint: Error: [AssetLog] D:\TFG\UnrealVR_HapticsPrototype\PhysicalInteractionSystem\Content\VRTemplate\Maps\VRTemplateMap.umap: [Compiler] The property associated with  Debug Message Color  could not be found in '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap_C'
+[2023.11.06-11.13.40:253][523]LogBlueprint: Error: [AssetLog] D:\TFG\UnrealVR_HapticsPrototype\PhysicalInteractionSystem\Content\VRTemplate\Maps\VRTemplateMap.umap: [Compiler] The property associated with  Debug Message Duration  could not be found in '/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap_C'
+[2023.11.06-11.13.40:450][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.11.06-11.14.06:462][751]BlueprintLog: New page: Compile VRTemplateMap
+[2023.11.06-11.14.06:540][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.11.06-11.14.13:142][ 98]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.06-11.14.13:157][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.06-11.14.13:157][ 98]PIE: New page: PIE session: VRTemplateMap (6 nov. 2023 13:14:13)
+[2023.11.06-11.14.13:157][ 98]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.11.06-11.14.13:166][ 98]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.11.06-11.14.13:167][ 98]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.11.06-11.14.13:167][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010273s)
+[2023.11.06-11.14.13:167][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.010318s)
+[2023.11.06-11.14.13:168][ 98]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.06-11.14.13:168][ 98]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.06-11.14.13:168][ 98]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.11.06-11.14.13:169][ 98]LogPlayLevel: PIE: World Init took: (0.001521s)
+[2023.11.06-11.14.13:210][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.11.06-11.14.13:212][ 98]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.11.06-11.14.13:212][ 98]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.06-11.14.13:212][ 98]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.06-11.14.13:212][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.06-11.14.13:212][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.06-11.14.13:212][ 98]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.06-11.14.13:212][ 98]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.06-11.14.13:212][ 98]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.06-11.14.13:212][ 98]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.06-11.14.13:214][ 98]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.06-11.14.13:214][ 98]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.06-11.14.13:214][ 98]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.06-11.14.13:216][ 98]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.06-11.14.13:247][ 98]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (Oculus Virtual Audio Device)
+[2023.11.06-11.14.13:247][ 98]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.06-11.14.13:247][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.06-11.14.13:247][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.06-11.14.13:248][ 98]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.11.06-11.14.13:248][ 98]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.11.06-11.14.13:250][ 98]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.11.06-11.14.13:250][ 98]LogInit: FAudioDevice initialized with ID 37.
+[2023.11.06-11.14.13:250][ 98]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.11.06-11.14.13:250][ 98]LogAudio: Display: Audio Device (ID: 37) registered with world 'VRTemplateMap'.
+[2023.11.06-11.14.13:250][ 98]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2023.11.06-11.14.13:253][ 98]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.06-11.14.13:269][ 98]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.11.06-12.14.13
+[2023.11.06-11.14.13:276][ 98]LogWorld: Bringing up level for play took: 0.022285
+[2023.11.06-11.14.13:278][ 98]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2023.11.06-11.14.13:282][ 98]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.06-11.14.13:283][ 98]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.06-11.14.13:291][ 98]PIE: Server logged in
+[2023.11.06-11.14.13:291][ 98]PIE: Play in editor total start time 0,135 seconds.
+[2023.11.06-11.14.15:986][217]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.15:987][217]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.17:171][271]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.17:171][271]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.17:654][293]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.17:654][293]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.17:895][304]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.17:895][304]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:116][314]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:116][314]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:337][324]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:337][324]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:537][333]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:537][333]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:744][342]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:744][342]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:949][351]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.18:949][351]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.19:264][365]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.19:264][365]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.19:531][377]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.19:531][377]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.19:759][387]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.19:759][387]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.20:028][399]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.20:028][399]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.20:259][409]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.20:259][409]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.20:487][419]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.20:487][419]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.21:548][464]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.21:548][464]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.21:756][473]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.21:756][473]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.21:943][481]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.21:943][481]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.22:148][490]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.22:148][490]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.22:446][503]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.22:446][503]LogBlueprintUserMessages: [VRTemplateMap_C_12] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.14.25:174][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.06-11.14.25:174][620]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.11.06-11.14.25:177][620]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.06-11.14.25:178][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.06-11.14.25:189][620]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.06-11.14.25:197][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.06-11.14.25:235][620]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.06-11.14.25:236][620]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2023.11.06-11.14.25:236][620]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.11.06-11.14.25:238][620]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.11.06-11.14.25:243][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.06-11.14.25:257][620]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.06-11.14.25:257][620]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.06-11.14.25:258][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.11.06-11.14.25:308][621]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2023.11.06-11.14.25:364][621]LogViewport: Scene viewport resized to 365x275, mode Windowed.
+[2023.11.06-11.16.23:511][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.11.06-11.16.23:552][572]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto5
+[2023.11.06-11.16.23:552][572]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/VRTemplateMap_Auto57C3C490948B04B563335B58ACD229089.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto5.umap'
+[2023.11.06-11.16.23:566][572]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.110
+[2023.11.06-11.16.23:566][572]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.110
+[2023.11.06-11.20.34:119][174]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to '/Script/Engine.BlueprintGeneratedClass'"/Game/Blueprints/BP_SGHUD.BP_SGHUD_C"''
+[2023.11.06-11.21.59:279][249]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to '/Script/Engine.BlueprintGeneratedClass'"/Game/Blueprints/BP_SGHUD.BP_SGHUD_C"''
+[2023.11.06-11.25.58:000][363]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.06-11.25.58:031][364]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.06-11.25.58:090][365]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.06-11.25.58:144][366]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: ================================================
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Total job queries 3 538, among them cache hits 18 (0.51%)
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Tracking 3 519 distinct input hashes that result in 2 304 distinct outputs (65.47%)
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: RAM used: 10,50 MiB of 819,20 MiB budget. Usage: 1.28%
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Shaders Compiled: 3 519
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Jobs assigned 3 520, completed 3 519 (99.97%)
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Average time worker was idle: 19.95 s
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Time job spent in pending queue: average 582.53 s, longest 1582.37 s
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Job execution time: average 13.77 s, max 91.46 s
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Job life time (pending + execution): average 596.47 s, max 1597.18
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2080.49 s
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Jobs were issued in 856 batches (only local compilation was used), average 4.11 jobs/batch
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Average processing rate: 1.69 jobs/sec
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Total thread time: 5 826,763 s
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Total thread preprocess time: 116,298 s
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Percentage time preprocessing: 2.00%
+[2023.11.06-11.26.01:044][523]LogShaderCompilers: Display: Effective parallelization: 2.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 26.23 sec, max 26.23 sec, min 26.23 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 22.33 sec, max 77.46 sec, min 2.71 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                   FScreenSpaceShortRangeAOCS (compiled   12 times, average 11.10 sec, max 40.89 sec, min 1.23 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 10.16 sec, max 25.57 sec, min 0.60 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 9.67 sec, max 9.67 sec, min 9.67 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 10.58% of total time (compiled  128 times, average 4.82 sec, max 12.75 sec, min 2.83 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 6.67% of total time (compiled  128 times, average 3.04 sec, max 8.18 sec, min 0.52 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                             FDeferredLightPS - 6.60% of total time (compiled  102 times, average 3.77 sec, max 8.09 sec, min 0.83 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.53% of total time (compiled   95 times, average 3.39 sec, max 18.25 sec, min 0.68 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 5.12% of total time (compiled   96 times, average 3.11 sec, max 6.30 sec, min 0.50 sec)
+[2023.11.06-11.26.01:046][523]LogShaderCompilers: Display: ================================================
+[2023.11.06-11.26.01:269][536]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.06-11.26.01:350][539]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_MenuLaser.NS_MenuLaser took 3.181563 sec (time since issued), 5.871858 sec (combined shader worker time).
+[2023.11.06-11.26.26:852][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2023.11.06-11.26.26:928][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.11.06-11.26.26:975][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.11.06-11.26.31:667][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.06-11.26.31:735][261]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_SGPlayerController
+[2023.11.06-11.26.31:735][261]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/BP_SGPlayerControllerEFC5CF344A3D133A9E76E69C18CC9770.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/VRTemplate/Blueprints/BP_SGPlayerController.uasset'
+[2023.11.06-11.26.31:755][261]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.06-11.26.31:793][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_SGPawn" FILE="D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/VRTemplate/Blueprints/BP_SGPawn.uasset" SILENT=true
+[2023.11.06-11.26.31:803][261]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_SGPawn
+[2023.11.06-11.26.31:803][261]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/BP_SGPawnC5E16EC04DC19804A6E1399A7A1C4DCD.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/VRTemplate/Blueprints/BP_SGPawn.uasset'
+[2023.11.06-11.26.31:807][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_SGGameMode" FILE="D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/VRTemplate/Blueprints/BP_SGGameMode.uasset" SILENT=true
+[2023.11.06-11.26.31:811][261]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_SGGameMode
+[2023.11.06-11.26.31:811][261]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/BP_SGGameMode34FF2B8A4F36F8FA6E0BBCB139819244.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Content/VRTemplate/Blueprints/BP_SGGameMode.uasset'
+[2023.11.06-11.26.31:821][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 1.11 sec)
+[2023.11.06-11.26.31:829][261]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.06-11.26.31:829][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_SGPlayerController.BP_SGPlayerController
+[2023.11.06-11.26.31:829][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_SGPawn.BP_SGPawn
+[2023.11.06-11.26.31:829][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_SGGameMode.BP_SGGameMode
+[2023.11.06-11.27.20:675][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.11.06-11.27.20:723][823]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto6
+[2023.11.06-11.27.20:723][823]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/VRTemplateMap_Auto63F8DCCDE44115D77D3D6689D55FB4B1F.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto6.umap'
+[2023.11.06-11.27.20:739][823]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.132
+[2023.11.06-11.27.20:740][823]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.132
+[2023.11.06-11.28.37:834][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.11.06-11.37.21:201][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.06-11.37.21:254][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto7
+[2023.11.06-11.37.21:254][249]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/VRTemplateMap_Auto73FCDA7534749A39FB05031A427B1C14E.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto7.umap'
+[2023.11.06-11.37.21:264][249]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.247
+[2023.11.06-11.37.21:264][249]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.247
+[2023.11.06-11.37.21:265][249]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VRTemplate/Blueprints/BP_SGHUD] ([2] browsable assets)...
+[2023.11.06-11.37.21:265][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/BP_SGHUD]
+[2023.11.06-11.37.21:295][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/BP_SGHUD_Auto7
+[2023.11.06-11.37.21:295][249]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/BP_SGHUD_Auto76D56E4F7480EBDA99D5975952F9E12DB.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/Autosaves/Game/VRTemplate/Blueprints/BP_SGHUD_Auto7.uasset'
+[2023.11.06-11.37.21:295][249]LogFileHelpers: Auto-saving content packages took 0.031
+[2023.11.06-11.43.39:268][528]BlueprintLog: New page: Compile VRTemplateMap
+[2023.11.06-11.43.39:411][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.11.06-11.43.42:461][699]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.06-11.43.42:477][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.06-11.43.42:477][699]PIE: New page: PIE session: VRTemplateMap (6 nov. 2023 13:43:42)
+[2023.11.06-11.43.42:477][699]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.11.06-11.43.42:486][699]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.11.06-11.43.42:486][699]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.11.06-11.43.42:488][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011115s)
+[2023.11.06-11.43.42:488][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.011158s)
+[2023.11.06-11.43.42:488][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.06-11.43.42:489][699]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.06-11.43.42:489][699]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.11.06-11.43.42:490][699]LogPlayLevel: PIE: World Init took: (0.001626s)
+[2023.11.06-11.43.42:528][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.11.06-11.43.42:530][699]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.11.06-11.43.42:530][699]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.06-11.43.42:530][699]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.06-11.43.42:530][699]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.06-11.43.42:530][699]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.06-11.43.42:530][699]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.06-11.43.42:531][699]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.06-11.43.42:531][699]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.06-11.43.42:531][699]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.06-11.43.42:531][699]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.06-11.43.42:531][699]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.06-11.43.42:531][699]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.06-11.43.42:534][699]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.06-11.43.42:563][699]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (Oculus Virtual Audio Device)
+[2023.11.06-11.43.42:563][699]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.06-11.43.42:563][699]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.06-11.43.42:563][699]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.06-11.43.42:565][699]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.11.06-11.43.42:565][699]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.11.06-11.43.42:568][699]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.11.06-11.43.42:568][699]LogInit: FAudioDevice initialized with ID 38.
+[2023.11.06-11.43.42:568][699]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.11.06-11.43.42:568][699]LogAudio: Display: Audio Device (ID: 38) registered with world 'VRTemplateMap'.
+[2023.11.06-11.43.42:568][699]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2023.11.06-11.43.42:571][699]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.06-11.43.42:586][699]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.11.06-12.43.42
+[2023.11.06-11.43.42:593][699]LogWorld: Bringing up level for play took: 0.022053
+[2023.11.06-11.43.42:595][699]LogOnline: OSS: Created online subsystem instance for: :Context_83
+[2023.11.06-11.43.42:598][699]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.06-11.43.42:598][699]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.06-11.43.42:606][699]PIE: Server logged in
+[2023.11.06-11.43.42:607][699]PIE: Play in editor total start time 0,13 seconds.
+[2023.11.06-11.43.46:188][857]LogBlueprintUserMessages: [VRTemplateMap_C_13] SGConnect version: SGConnect C++ Library v2.12.0-19c9854*
+[2023.11.06-11.43.46:188][857]LogBlueprintUserMessages: [VRTemplateMap_C_13] SGCore version: SGCore C++ Library v2.12.0-19c9854*
+[2023.11.06-11.44.01:325][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.06-11.44.01:325][541]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.11.06-11.44.01:328][541]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.06-11.44.01:330][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.06-11.44.01:347][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.06-11.44.01:359][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.06-11.44.01:402][541]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.06-11.44.01:403][541]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2023.11.06-11.44.01:403][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.11.06-11.44.01:404][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.11.06-11.44.01:409][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.06-11.44.01:430][541]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.06-11.44.01:430][541]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.06-11.44.01:432][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.11.06-11.44.01:487][542]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2023.11.06-11.44.01:557][542]LogViewport: Scene viewport resized to 365x275, mode Windowed.
+[2023.11.06-11.47.38:198][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.11.06-11.47.38:242][175]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto8
+[2023.11.06-11.47.38:242][175]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/VRTemplateMap_Auto8BB422CBD4E7B6C6E0426A48546D771B3.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto8.umap'
+[2023.11.06-11.47.38:253][175]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.263
+[2023.11.06-11.47.38:254][175]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.263
+[2023.11.06-11.54.11:983][704]LogEditorViewport: Clicking Background
+[2023.11.06-11.54.24:048][686]LogViewport: Scene viewport resized to 365x275, mode Windowed.
+[2023.11.06-11.54.37:199][537]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.06-11.54.40:109][726]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.11.06-11.54.41:322][805]Cmd: TRANSACTION UNDO
+[2023.11.06-11.54.41:322][805]LogEditorTransaction: Undo Move Elements
+[2023.11.06-11.54.41:568][807]Cmd: TRANSACTION UNDO
+[2023.11.06-11.54.41:568][807]LogEditorTransaction: Undo Move Elements
+[2023.11.06-11.57.39:088][498]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2023.11.06-11.57.39:190][498]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto9
+[2023.11.06-11.57.39:190][498]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/VRTemplateMap_Auto9EAEDDDF94CCDF1C45A9237837113D88E.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto9.umap'
+[2023.11.06-11.57.39:372][498]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.676
+[2023.11.06-11.57.39:372][498]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.676
+[2023.11.06-11.57.39:372][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VRTemplate/Blueprints/BP_SGHUD] ([2] browsable assets)...
+[2023.11.06-11.57.39:372][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/BP_SGHUD]
+[2023.11.06-11.57.39:415][498]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/BP_SGHUD_Auto9
+[2023.11.06-11.57.39:416][498]LogSavePackage: Moving 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/BP_SGHUD_Auto9A546C08542677804499159B7086F5E3D.tmp' to 'D:/TFG/UnrealVR_HapticsPrototype/PhysicalInteractionSystem/Saved/Autosaves/Game/VRTemplate/Blueprints/BP_SGHUD_Auto9.uasset'
+[2023.11.06-11.57.39:416][498]LogFileHelpers: Auto-saving content packages took 0.045
