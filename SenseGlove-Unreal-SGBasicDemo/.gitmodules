@@ -1,0 +1,4 @@
+[submodule "Plugins/SenseGlove"]
+	path = Plugins/SenseGlove
+	url = https://SenseGlove@dev.azure.com/SenseGlove/SenseGlove-Unreal/_git/SenseGlove-Unreal
+	branch = 5.2
